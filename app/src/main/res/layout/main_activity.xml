@@ -46,21 +46,25 @@
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="@string/reset_button_main" />
+            android:layout_weight="1"
+            android:text="@string/reset_button_main"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/btnCalculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/calculate_bmi_button_main" />
+            android:text="@string/calculate_bmi_button_main"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/lblResult"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
 
     <ImageView
         android:id="@+id/imgBmi"
