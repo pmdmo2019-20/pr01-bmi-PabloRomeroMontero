@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Body Mass Index</string>
+    <string name="textView_weight_main">Weight</string>
+    <string name="reset_button_main">Reset</string>
+    <string name="calculate_bmi_button_main">CALCULATE BMI</string>
+    <string name="body_mass_index_contentDescription_main">Body Mass Index</string>
+    <string name="main_invalid_weight">Error! Invalid Weight</string>
+    <string name="main_invalid_height">Error! Invalid Height</string>
+    <string name="main_bmi">DMI: %.2f %S </string>
+    <string name="hint_main_editText_height">(m)</string>
+    <string name="lblheight_main">Height</string>
+    <string name="hint_main_editText_kg">(kg)</string>
+    <string name="main_overweight">Overweight</string>
+    <string name="main_underweight">Low Weight</string>
+    <string name="main_normalWeight">Normal Weight</string>
+    <string name="main_ObesityGrade1">Obesity Grade 1</string>
+    <string name="main_ObesityGrade2">Obesity Grade 2</string>
+    <string name="main_ObesityGrade3">Obesity Grade 3</string>
     <!-- TODO -->
 </resources>

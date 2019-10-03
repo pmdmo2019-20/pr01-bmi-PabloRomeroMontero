@@ -8,6 +8,65 @@
     android:orientation="vertical"
     tools:context=".ui.main.MainActivity">
 
-    <!-- TODO -->
+    <TextView
+        android:id="@+id/textView_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_weight_main" />
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_main_editText_kg"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblheight_main" />
+
+    <EditText
+        android:id="@+id/txtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_main_editText_height"
+        android:inputType="numberDecimal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/reset_button_main" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/calculate_bmi_button_main" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bmi"
+        android:contentDescription="@string/body_mass_index_contentDescription_main" />
 
 </LinearLayout>
